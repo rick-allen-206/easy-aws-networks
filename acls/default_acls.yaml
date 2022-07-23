@@ -1,0 +1,18 @@
+---
+acls:
+  default:
+    inbound:
+      - rule_no: 100
+        action: "allow"
+        from_port: 0
+        to_port: 0
+        protocol: "all"
+        cidr_block: "0.0.0.0/0"
+
+    outbound:
+      - rule_no: 100
+        action: "allow"
+        from_port: 0
+        to_port: 0
+        protocol: "all"
+        cidr_block: "0.0.0.0/0"
